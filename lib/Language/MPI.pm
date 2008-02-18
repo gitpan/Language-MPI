@@ -4,7 +4,7 @@
 
 =head1 NAME
 
-Language::MPI - 2008.0215 Message Parsing Interpreter
+Language::MPI - 2008.0217 Message Parsing Interpreter
 
 =head1 SYNOPSIS
 
@@ -119,8 +119,8 @@ no warnings qw(uninitialized);
 
 package Language::MPI;
 
-#our ($VERSION, @ISA, @EXPORT_OK, $perl_list);
-use vars qw($VERSION, @ISA, @EXPORT_OK, $perl_list);
+our ($VERSION, @ISA, @EXPORT_OK, $perl_list);
+#use vars qw($VERSION, @ISA, @EXPORT_OK, $perl_list);
 
 BEGIN
 {
@@ -130,7 +130,7 @@ BEGIN
   @ISA = qw(Exporter);
   @EXPORT_OK = qw(parse setvar readvar simp_functions);
   
-  $VERSION = "2008.0215";
+  $VERSION = "2008.0217";
 }
 
 # control functions alter execution of their parameters,

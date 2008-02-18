@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                Language-MPI
-version:             2008.0215
-abstract:            2008.0215 Message Parsing Interpreter
+version:             2008.0217
+abstract:            2008.0217 Message Parsing Interpreter
 license:             ~
 author:              
     - Peter Hanely <cal@splitreflection.com>
